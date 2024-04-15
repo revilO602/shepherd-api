@@ -1,7 +1,7 @@
 from datetime import timedelta, timezone, datetime
-from app.config import settings
+from config import settings
 from jose import jwt
-from app.schemas.users import UserInDB
+from schemas.users import UserInDB
 from utils.auth_utils import pwd_context
 
 

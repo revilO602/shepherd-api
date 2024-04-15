@@ -2,9 +2,9 @@ from datetime import timedelta
 from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
-from app.config import settings
-from app.schemas.auth import Token
-from app.services.auth import authenticate_user, create_access_token
+from config import settings
+from schemas.auth import Token
+from services.auth import authenticate_user, create_access_token
 from exceptions.auth import UnauthorizedException
 
 auth_router = APIRouter()

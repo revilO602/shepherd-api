@@ -2,10 +2,10 @@ from typing import Annotated
 
 from fastapi import Depends, HTTPException, status
 from utils.auth_utils import oauth2_scheme
-from app.config import settings
-from app.schemas.auth import TokenData
+from config import settings
+from schemas.auth import TokenData
 from jose import JWTError, jwt
-from app.services.auth import get_user
+from services.auth import get_user
 from exceptions.auth import CredentialsException
 
 fake_users_db = {

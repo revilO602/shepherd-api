@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers.auth import auth_router
 from routers.users import users_router
+from config import settings
 
 # from shepherd.app.config import settings
 
