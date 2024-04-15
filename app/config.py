@@ -1,11 +1,18 @@
-
 from typing import Any, Dict, List, Optional, Union
 
-from pydantic import AnyHttpUrl, BaseSettings, PostgresDsn, validator, SettingsConfigDict
+from pydantic import (
+    AnyHttpUrl,
+    BaseSettings,
+    PostgresDsn,
+    validator,
+    SettingsConfigDict,
+)
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(case_sensitive=True, env_file='.env', env_file_encoding='utf-8')
+    model_config = SettingsConfigDict(
+        case_sensitive=True, env_file=".env", env_file_encoding="utf-8"
+    )
     PROJECT_NAME: str
     BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = []
 
