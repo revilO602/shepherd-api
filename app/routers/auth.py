@@ -1,29 +1,25 @@
 from datetime import timedelta
 from typing import Annotated
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordRequestForm
-from config import settings
-from schemas.auth import Token
-from services.auth import authenticate_user, create_access_token
-from exceptions.auth import UnauthorizedException
+from app.config import settings
+from app.schemas.auth import Token
+from app.services.auth import authenticate_user
+from app.exceptions.auth import UnauthorizedException
+from app.utils.auth_utils import create_access_token
+from fastapi import Depends
+from sqlalchemy.orm import Session
+from app.database import get_db
 
 auth_router = APIRouter()
 
-fake_users_db = {
-    "johndoe": {
-        "username": "johndoe",
-        "full_name": "John Doe",
-        "email": "johndoe@example.com",
-        "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
-    }
-}
-
 
 @auth_router.post("/token")
-async def login_for_access_token(
+def login_for_access_token(
     form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
+    db: Session = Depends(get_db),
 ) -> Token:
-    user = authenticate_user(fake_users_db, form_data.username, form_data.password)
+    user = authenticate_user(form_data.username, form_data.password, db)
     if not user:
         raise UnauthorizedException()
     access_token_expires = timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)

@@ -1,10 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers.auth import auth_router
-from routers.users import users_router
-from config import settings
-
-# from shepherd.app.config import settings
+from app.routers.auth import auth_router
+from app.routers.users import users_router
+from app.routers.trips import trips_router
+from app.config import settings
 
 
 def get_application():
@@ -21,11 +20,11 @@ def get_application():
     return _app
 
 
-# app = get_application()
+app = get_application()
 
-app = FastAPI()
 app.include_router(auth_router)
 app.include_router(users_router, prefix="/users")
+app.include_router(trips_router, prefix="/trips")
 
 
 @app.get("/")
