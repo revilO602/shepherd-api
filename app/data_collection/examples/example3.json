@@ -1,0 +1,195 @@
+{
+    "location_id": "8588849",
+    "name": "Mackafe (cat cafe)",
+    "description": "Aid,relax, catlings, a cup of coffee, or tea.....these are only a few of many words characterizing our main reasons for launching this unusual, challenging but at the same time very enjoyable project. The 21st century's life is bustling and stressfull. Time is flustered, everything has to be done ,,Asap\" and there is no time for leisure (taking breath). People are dashing constantly without thinking of their well-being and relaxation. Nowadays it is an obvious aspect that release of stress and mental hygiene are the main essentials for surviving nowadays. Do you attend often (from time to time)your favorite coffee-house accompanied with your friends? Do you love animals ? Would you like to support shelter animals? If the answer is ,,yes\", you are JUST LIKE US. So what would you say about the idea to replace classic sitting in a coffee-house by sitting in a comfortable environment of our club, which is completely different from all the clubs you were accustomed in our country. You can spend wonderful time in our club in the soothing company of our lovely cats. It is already based on scientific approach, that cats are able to raise the health condition of human being. Just imagine - you meet your friends in a placescape of our home-like club of cat-fanciers, you take a seat in our unconventional , but comfortable sittings and you order your favorite cup of coffee or tea. There will be something more for you , a real healing balm for your soul, our cats. You can caress them or snuggle up to them or just play with them, if they would like to cuddle, snooze or play too. Let's stop to imagine all this and come to visit us to experience this feeling on line. We offer not only relax, but also the possibility to support SHELTER cats(cats at a pinch) Do you ask how? In co-operation with a civic association ,,MačkySOS\" (CatsSOS), we give a hand to rescued cats to find their new friends and home, which they are really worthy of. Are you considering adoption of a cat currently? That's one of the reasons why to visit us. Or do you think! simply about how to make a ,,good deed\"? This is enough reason too. So stop talking about it, let's visit our club and youĺl find probably your new true friend for the term of your life. We look forward to spending time with you in our club ,,Mačkafé\". Miaow! Sincerely Yours ,,Mačkafé Team\".",
+    "web_url": "https://www.tripadvisor.com/Attraction_Review-g274924-d8588849-Reviews-Mackafe_cat_cafe-Bratislava_Bratislava_Region.html?m=66827",
+    "address_obj": {
+      "street1": "Zamocka 24",
+      "street2": "Zamocka 7327/24",
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "postalcode": "811 01",
+      "address_string": "Zamocka 24 Zamocka 7327/24, Bratislava 811 01 Slovakia"
+    },
+    "ancestors": [
+      {
+        "level": "Municipality",
+        "name": "Bratislava",
+        "location_id": "274924"
+      },
+      {
+        "level": "Region",
+        "name": "Bratislava Region",
+        "location_id": "1009462"
+      },
+      {
+        "level": "Country",
+        "name": "Slovakia",
+        "location_id": "274922"
+      }
+    ],
+    "latitude": "48.144695",
+    "longitude": "17.099669",
+    "timezone": "Europe/Bratislava",
+    "email": "info@mackafe.sk",
+    "phone": "+421 911 120 600",
+    "website": "http://www.mackafe.sk",
+    "write_review": "https://www.tripadvisor.com/UserReview-g274924-d8588849-Mackafe_cat_cafe-Bratislava_Bratislava_Region.html?m=66827",
+    "ranking_data": {
+      "geo_location_id": "274924",
+      "ranking_string": "#2 of 101 Fun &amp; Games in Bratislava",
+      "geo_location_name": "Bratislava",
+      "ranking_out_of": "101",
+      "ranking": "2"
+    },
+    "rating": "5.0",
+    "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+    "num_reviews": "356",
+    "review_rating_count": {
+      "1": "2",
+      "2": "4",
+      "3": "7",
+      "4": "27",
+      "5": "316"
+    },
+    "photo_count": "503",
+    "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g274924-d8588849-m66827-Reviews-Mackafe_cat_cafe-Bratislava_Bratislava_Region.html#photos",
+    "hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 1,
+            "time": "1000"
+          },
+          "close": {
+            "day": 1,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "time": "1000"
+          },
+          "close": {
+            "day": 2,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "time": "1000"
+          },
+          "close": {
+            "day": 3,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "time": "1000"
+          },
+          "close": {
+            "day": 4,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "time": "1000"
+          },
+          "close": {
+            "day": 5,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "time": "1000"
+          },
+          "close": {
+            "day": 6,
+            "time": "2100"
+          }
+        },
+        {
+          "open": {
+            "day": 7,
+            "time": "1000"
+          },
+          "close": {
+            "day": 7,
+            "time": "2100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 10:00 - 21:00",
+        "Tuesday: 10:00 - 21:00",
+        "Wednesday: 10:00 - 21:00",
+        "Thursday: 10:00 - 21:00",
+        "Friday: 10:00 - 21:00",
+        "Saturday: 10:00 - 21:00",
+        "Sunday: 10:00 - 21:00"
+      ]
+    },
+    "category": {
+      "name": "attraction",
+      "localized_name": "Attraction"
+    },
+    "subcategory": [
+      {
+        "name": "fun_games",
+        "localized_name": "Fun & Games"
+      },
+      {
+        "name": "activities",
+        "localized_name": "Activities"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Fun & Games",
+        "localized_name": "Fun & Games",
+        "categories": [
+          {
+            "name": "Game & Entertainment Centers",
+            "localized_name": "Game & Entertainment Centers"
+          }
+        ]
+      }
+    ],
+    "neighborhood_info": [],
+    "trip_types": [
+      {
+        "name": "business",
+        "localized_name": "Business",
+        "value": "1"
+      },
+      {
+        "name": "couples",
+        "localized_name": "Couples",
+        "value": "139"
+      },
+      {
+        "name": "solo",
+        "localized_name": "Solo travel",
+        "value": "27"
+      },
+      {
+        "name": "family",
+        "localized_name": "Family",
+        "value": "54"
+      },
+      {
+        "name": "friends",
+        "localized_name": "Friends getaway",
+        "value": "106"
+      }
+    ],
+    "awards": []
+  }

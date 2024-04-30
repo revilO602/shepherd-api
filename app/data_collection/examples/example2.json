@@ -1,0 +1,116 @@
+{
+    "location_id": "1771434",
+    "name": "UFO Observation Deck",
+    "description": "Iconic building, symbol of Bratislava. Our elevator will take you in 45 seconds from 0 to speechless amazement. At the height of 95 meters, with a line of sight to 100 km you will truly know the magic of the building, which finishes the inherent part of the city's silhouette on Danube. If you feel like seeing the city from a birds perspective, experiencing a perfect view, or capturing a beautiful sunset over Danube, you won't find a better place for it. Visit us daily from 10am to 11pm.",
+    "web_url": "https://www.tripadvisor.com/Attraction_Review-g274924-d1771434-Reviews-UFO_Observation_Deck-Bratislava_Bratislava_Region.html?m=66827",
+    "address_obj": {
+      "street1": "Most SNP 1",
+      "street2": "",
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "postalcode": "851 01",
+      "address_string": "Most SNP 1, Bratislava 851 01 Slovakia"
+    },
+    "ancestors": [
+      {
+        "level": "Municipality",
+        "name": "Bratislava",
+        "location_id": "274924"
+      },
+      {
+        "level": "Region",
+        "name": "Bratislava Region",
+        "location_id": "1009462"
+      },
+      {
+        "level": "Country",
+        "name": "Slovakia",
+        "location_id": "274922"
+      }
+    ],
+    "latitude": "48.136818",
+    "longitude": "17.104616",
+    "timezone": "Europe/Bratislava",
+    "email": "reception@u-f-o.sk",
+    "phone": "+421 2/625 203 00",
+    "write_review": "https://www.tripadvisor.com/UserReview-g274924-d1771434-UFO_Observation_Deck-Bratislava_Bratislava_Region.html?m=66827",
+    "ranking_data": {
+      "geo_location_id": "274924",
+      "ranking_string": "#17 of 315 things to do in Bratislava",
+      "geo_location_name": "Bratislava",
+      "ranking_out_of": "315",
+      "ranking": "17"
+    },
+    "rating": "4.0",
+    "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+    "num_reviews": "2696",
+    "review_rating_count": {
+      "1": "52",
+      "2": "94",
+      "3": "424",
+      "4": "1013",
+      "5": "1113"
+    },
+    "category": {
+      "name": "attraction",
+      "localized_name": "Attraction"
+    },
+    "subcategory": [
+      {
+        "name": "landmarks",
+        "localized_name": "Sights & Landmarks"
+      },
+      {
+        "name": "attractions",
+        "localized_name": "Attractions"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Sights & Landmarks",
+        "localized_name": "Sights & Landmarks",
+        "categories": [
+          {
+            "name": "Points of Interest & Landmarks",
+            "localized_name": "Points of Interest & Landmarks"
+          },
+          {
+            "name": "Lookouts",
+            "localized_name": "Lookouts"
+          },
+          {
+            "name": "Observation Decks & Towers",
+            "localized_name": "Observation Decks & Towers"
+          }
+        ]
+      }
+    ],
+    "neighborhood_info": [],
+    "trip_types": [
+      {
+        "name": "business",
+        "localized_name": "Business",
+        "value": "109"
+      },
+      {
+        "name": "couples",
+        "localized_name": "Couples",
+        "value": "1042"
+      },
+      {
+        "name": "solo",
+        "localized_name": "Solo travel",
+        "value": "214"
+      },
+      {
+        "name": "family",
+        "localized_name": "Family",
+        "value": "349"
+      },
+      {
+        "name": "friends",
+        "localized_name": "Friends getaway",
+        "value": "653"
+      }
+    ]
+  }

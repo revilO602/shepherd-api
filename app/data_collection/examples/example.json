@@ -1,0 +1,87 @@
+{
+    "location_id": "290671",
+    "name": "Bratislava Old Town",
+    "description": "Historic neighborhood filled with charming narrow lanes, burgher's houses and nobles' palaces in addition to many of the city's important buildings such as the former Palace of the Hungarian Estates, the late-Gothic building of the Academia Istropolitana and the Leopold de Pauli Palace where Franz Liszt performed as a child.",
+    "latitude": "48.14348",
+    "longitude": "17.108177",
+    "ranking_data": {
+      "ranking_string": "#5 of 315 things to do in Bratislava",
+      "ranking_out_of": "315",
+      "ranking": "5"
+    },
+    "rating": "4.5",
+    "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+    "num_reviews": "9171",
+    "category": {
+      "name": "attraction",
+      "localized_name": "Attraction"
+    },
+    "subcategory": [
+      {
+        "name": "landmarks",
+        "localized_name": "Sights & Landmarks"
+      },
+      {
+        "name": "attractions",
+        "localized_name": "Attractions"
+      },
+      {
+        "name": "other",
+        "localized_name": "Other"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Sights & Landmarks",
+        "localized_name": "Sights & Landmarks",
+        "categories": [
+          {
+            "name": "Historic Walking Areas",
+            "localized_name": "Historic Walking Areas"
+          },
+          {
+            "name": "Neighborhoods",
+            "localized_name": "Neighborhoods"
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "localized_name": "Other",
+        "categories": [
+          {
+            "name": "Neighborhoods",
+            "localized_name": "Neighborhoods"
+          }
+        ]
+      }
+    ],
+    "neighborhood_info": [],
+    "trip_types": [
+      {
+        "name": "business",
+        "localized_name": "Business",
+        "value": "415"
+      },
+      {
+        "name": "couples",
+        "localized_name": "Couples",
+        "value": "3405"
+      },
+      {
+        "name": "solo",
+        "localized_name": "Solo travel",
+        "value": "841"
+      },
+      {
+        "name": "family",
+        "localized_name": "Family",
+        "value": "1332"
+      },
+      {
+        "name": "friends",
+        "localized_name": "Friends getaway",
+        "value": "1961"
+      }
+    ]
+  }

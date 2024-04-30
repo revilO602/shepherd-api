@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordRequestForm
 from app.config import settings
-from app.schemas.auth import Token
+from app.schemas.auth import TokenWithUser
 from app.services.auth import authenticate_user
 from app.exceptions.auth import UnauthorizedException
 from app.utils.auth_utils import create_access_token
@@ -18,7 +18,7 @@ auth_router = APIRouter()
 def login_for_access_token(
     form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
     db: Session = Depends(get_db),
-) -> Token:
+) -> TokenWithUser:
     user = authenticate_user(form_data.username, form_data.password, db)
     if not user:
         raise UnauthorizedException()
@@ -26,4 +26,4 @@ def login_for_access_token(
     access_token = create_access_token(
         data={"sub": user.username}, expires_delta=access_token_expires
     )
-    return Token(access_token=access_token, token_type="bearer")
+    return TokenWithUser(access_token=access_token, token_type="bearer", user=user)

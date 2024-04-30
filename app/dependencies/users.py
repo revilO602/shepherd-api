@@ -32,7 +32,7 @@ async def get_current_user(
         username: str = payload.get("sub")
         if username is None:
             raise CredentialsException()
-        token_data = TokenData(username)
+        token_data = TokenData(username=username)
     except JWTError:
         raise CredentialsException()
     user = get_user_username(token_data.username, db)

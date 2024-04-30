@@ -5,6 +5,9 @@ class User(BaseModel):
     username: str
     email: EmailStr | None = None
 
+    class Config:
+        from_attributes = True
+
 
 class UserIn(User):
     password: str
